@@ -11,6 +11,7 @@ from django.http import HttpResponse
 
 @api_view(['GET', 'POST'])
 def get_tasks(request):
+    print(request)
     if request.method == 'GET':
         tasks = Task.objects.all()
         tasks_json = serializers.serialize('json', tasks)
