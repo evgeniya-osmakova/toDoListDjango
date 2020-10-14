@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from ./models import Task
+from .models import Task
 from django.http.response import JsonResponse
 from rest_framework import status
 from rest_framework.parsers import JSONParser
