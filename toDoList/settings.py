@@ -125,3 +125,5 @@ STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ALLOWED_HOSTS = ['my-django-backend.herokuapp.com', '127.0.0.1']
+
+CORS_ALLOW_ALL_ORIGINS=True
