@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from .models import Task
 from django.http.response import JsonResponse
 from rest_framework import status
